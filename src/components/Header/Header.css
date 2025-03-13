@@ -1,0 +1,46 @@
+.header{
+    height: 34vw;
+    margin:20px auto;
+    background: url('/header_img.png');
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    /* box-sizing: border-box; */
+}
+
+.header_contents{
+    position: absolute;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1.5vw;
+    max-width: 50%;
+    bottom: 8%;
+    left:6vw;
+    animation: FadeIn 3s;
+
+}
+
+.header_contents h2{
+
+    color: white;
+    font-size: max(4.5vw, 22px);
+    font-weight: 600;
+}
+
+.header_contents p{
+    color:white;
+    font-size: max(1.2vw, 14px);
+}
+
+.header_contents button{
+    border: none;
+    color:rgb(241, 131, 131);
+    font-weight: 500px;
+    font-size: max(1.2vw, 14px);
+    padding: 1vw 2.3vw;
+    /* background: transparent; */
+    border-radius: 50px;
+    cursor: pointer;
+}

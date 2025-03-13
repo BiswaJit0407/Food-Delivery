@@ -1,0 +1,22 @@
+.LoginPopup{
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    display: grid;
+}
+
+.login_pop_container{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size:14px;
+    animation: FadeIn 0.5s;
+}
