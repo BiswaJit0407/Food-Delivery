@@ -1,5 +1,5 @@
 # React + Vite
-# live demo - https://illustrious-klepon-c05394.netlify.app/
+# live demo - https://food-delivery-webpage1.netlify.app/
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
